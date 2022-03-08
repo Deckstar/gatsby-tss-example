@@ -1,0 +1,9 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.sortJSON": false
+  },
+  "editor.formatOnSave": true,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true
+}
