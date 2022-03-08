@@ -1,54 +1,57 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
 <h1 align="center">
-  Gatsby minimal starter
+  TSS & Gatsby example
 </h1>
+
+An example project to showcase how to implement [tss-react](https://github.com/garronej/tss-react) with [Gatsby JS](https://www.gatsbyjs.com) and [Material UI](https://mui.com), as described in [this DEV article](https://dev.to/deckstar/gatsby-js-how-to-solve-fouc-when-using-tss-react-and-material-ui-v5-465f).
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+### 🐈 Prerequisites:
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+This project uses [Yarn 3](https://yarnpkg.com/getting-started/install). To use it you must run:
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+```shell
+yarn set version berry
+```
+
+### 💻 Launching the project
+
+1.  **Install dependencies.**
+
+```shell
+yarn install
+```
 
 2.  **Start developing.**
 
-    Navigate into your new site’s directory and start it up.
+Navigate into your new site’s directory and start it up.
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+```shell
+yarn develop
+```
 
 3.  **Open the code and start customizing!**
 
-    Your site is now running at http://localhost:8000!
+Your site is now running at http://localhost:8000!
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+Edit `src/pages/index.js` to see your site update in real-time!
 
-4.  **Learn more**
+---
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## Learn more
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+### Step-by-step walk-through
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+This code example is based on the workflow described in [this DEV article](https://dev.to/deckstar/gatsby-js-how-to-solve-fouc-when-using-tss-react-and-material-ui-v5-465f). (Disclaimer: I'm the author).
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+### Libraries
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+- [tss-react](https://github.com/garronej/tss-react)
 
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+### Documentation
 
-## 🚀 Quick start (Gatsby Cloud)
+- [TSS React](https://docs.tss-react.dev)
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+- [Gatsby](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+- [Material UI](https://mui.com/getting-started/installation/)
