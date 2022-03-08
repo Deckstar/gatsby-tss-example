@@ -1,3 +1,12 @@
+<p align="center">
+  <a href="https://docs.tss-react.dev">
+    <img alt="TSS" src="https://user-images.githubusercontent.com/6702424/109334865-8f85bf00-7861-11eb-90ab-da36f9afe1b6.png" height="60" />
+  </a>
+  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
+    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" height="60" />
+  </a>
+</p>
+
 <h1 align="center">
   TSS & Gatsby example
 </h1>
@@ -34,7 +43,7 @@ yarn develop
 
 Your site is now running at http://localhost:8000!
 
-Edit `src/pages/index.js` to see your site update in real-time!
+Edit `src/pages/index.tsx` to see your site update in real-time!
 
 ---
 
