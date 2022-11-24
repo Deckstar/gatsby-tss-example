@@ -2,7 +2,6 @@ import { CacheProvider } from '@emotion/react';
 import createEmotionServer from '@emotion/server/create-instance';
 import React from 'react';
 import { renderToString } from 'react-dom/server';
-import { getTssDefaultEmotionCache } from 'tss-react';
 
 import { makeMuiCache } from './src/theme/cache';
 
@@ -30,20 +29,7 @@ export const replaceRenderer = (args) => {
     );
   });
 
-  const tssCache = getTssDefaultEmotionCache();
-  const { extractCritical } = createEmotionServer(tssCache);
-  const { css, ids } = extractCritical(renderToString(bodyComponent));
-
-  const tssStyleTag = (
-    <style
-      key="tss-styles"
-      data-emotion={`css ${ids.join(' ')}`}
-      dangerouslySetInnerHTML={{ __html: css }}
-    />
-  );
-
-  const combinedStyleTags = [...muiStyleTags, tssStyleTag];
-  setHeadComponents(combinedStyleTags);
+  setHeadComponents(muiStyleTags);
 
   // render the result from `extractCritical`
   replaceBodyHTMLString(emotionStyles.html);
